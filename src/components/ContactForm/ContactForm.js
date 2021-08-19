@@ -23,11 +23,7 @@ export default function ContactForm({onSubmit}) {
 
     onSubmit(name, number);
     setName("");
-    setNumber("")
-
-
-    // this.setState({ name: "", number: "" });
-
+    setNumber("");
   };
 
 

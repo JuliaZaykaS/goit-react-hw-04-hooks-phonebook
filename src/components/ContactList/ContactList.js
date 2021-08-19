@@ -5,7 +5,6 @@ export default function ContactList({ contacts, onBtnClick }) {
 
   return (
     <div>
-      
        <ol className={s.contactList}>
         {contacts.map(({ id, name, number }) => (
           <li className={s.contactItem} key={id}>
@@ -15,7 +14,7 @@ export default function ContactList({ contacts, onBtnClick }) {
             </li>
           ))}
         </ol>
-      
+
     </div>
   );
 }
