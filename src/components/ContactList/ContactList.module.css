@@ -1,0 +1,31 @@
+.contactList {
+  padding: 0;
+  /* border: 1px solid black; */
+  /* margin: 0; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* width: 500px; */
+}
+
+.contactItem {
+  margin-bottom: 10px;
+  text-align: left;
+  justify-content: space-between;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* width: 500px; */
+  /* justify-content: flex-end; */
+}
+
+.contactInfo {
+  margin-right: 50px;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+}
